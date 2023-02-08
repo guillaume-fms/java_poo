@@ -1,0 +1,1 @@
+moduleSearchIndex = [{"l":"Ex1PooObject"}];updateSearchResults();
