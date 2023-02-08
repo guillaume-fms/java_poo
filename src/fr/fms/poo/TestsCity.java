@@ -24,13 +24,16 @@ public class TestsCity {
 		 City toulouse = new City("Toulouse", "France",450000);
 		 City grenoble = new City("Grenoble", "France",454759 );
 		 
+
 		 paris.display();
 		 nice.display();
+		 System.out.println("***********************************************************************");
 		 toulouse.display();
 		 grenoble.display();
+		 System.out.println("***********************************************************************");
+		 System.out.println("Après ajout");
 		 toulouse.nbInhabitants += 20000;
 		 toulouse.display();
-		
 		 	 	 
 	}
 
