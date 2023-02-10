@@ -42,7 +42,7 @@ public class TestsCity {
 		 * On ne peut pas rajouter ou changer la population car 'nbInhabitants' est en private.
 		 * toulouse.nbInhabitants -= 20000; 
 		 * **/
-		bordeaux.setNbInhabitants(bordeaux.getNbInhabitants());
+		bordeaux.setNbInhabitants(bordeaux.getNbInhabitants() + 100000); 
 	}
 
 }

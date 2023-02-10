@@ -64,14 +64,21 @@ public class City {
 		this.nbInhabitants = nbInhabitants;
 	}
 
+	// Create Méthode exo1.1
+	//public void display() {
+	//	System.out.println("Town : " + this.town + "\t" + "Country : " + country + "\t"
+	//+ "NbInhabitants : " + this.nbInhabitants);
+	//}
+	
+	
 
 	// Create Méthode exo1.2
 	
-
 		public String toString() {
 			return "Town : " + getTown() + "\t" + "Country : " + getCountry() + "\t" + "NbInhabitants : "
 		+ this.getNbInhabitants();
 			}
+		
 	
 }
 
